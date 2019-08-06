@@ -1,6 +1,4 @@
-/* .App {
-    height: 100vh;
-} */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .sidebar {
     background-color: #f2f2f2;
@@ -22,3 +20,9 @@
 .infoTemplateHome {
     display: flex;
 }
+
+/* @media screen and (max-width:480px) {
+    .sidebar {
+        display:none;
+    }
+} */
