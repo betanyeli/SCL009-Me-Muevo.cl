@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Swal from 'sweetalert2'
 import { Row, Col, Container } from 'react-bootstrap';
 import { db } from '../data/firebaseInit.js'
 import './components.css'
@@ -72,7 +74,12 @@ class TemplateRegister extends React.Component {
                         gender: this.state.gender,
                         health: this.state.health,
                 }).then(() => {
-                        alert("Sending to firebase");
+                        Swal.fire(
+                                'Registro Exitoso',
+                                'Tus datos fueron enviados correctamente',
+                                'success'
+                        )
+
                 })
                         .catch(() => {
                                 alert("Failed to send");
@@ -106,10 +113,10 @@ class TemplateRegister extends React.Component {
                         return (
                                 <>
                                         <button
-                                                className="btn btn-secondary"
+                                                className="btn btn-secondary float-left"
                                                 type="button" onClick={this._prev}>
                                                 Atrás </button>
-                                        <button className="btn btn-primary" onClick={this.handleSubmit}>Registrar</button>
+                                                <button className="btn btn-primary float-right" onClick={this.handleSubmit}>Enviar Registro</button>
                                 </>
 
 
@@ -162,6 +169,10 @@ class TemplateRegister extends React.Component {
                                                                         birthdate={this.state.birthdate}
                                                                         gender={this.state.gender}
                                                                         health={this.state.health}
+                                                                />
+                                                                <Step3
+                                                                        currentStep={this.state.currentStep}
+                                                                        handleChange={this.handleChange}
                                                                 />
 
                                                                 {this.previousButton()}
@@ -278,6 +289,16 @@ function Step2(props) {
                         </div>
 
                 </>
+        );
+}
+
+function Step3(props) {
+        if (props.currentStep !== 3) {
+                return null
+        }
+        return (
+                <h1>Gracias por registrarte!</h1>
+
         );
 }
 
