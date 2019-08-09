@@ -3,7 +3,7 @@ import React from 'react';
 import Swal from 'sweetalert2'
 import { Row, Col, Container } from 'react-bootstrap';
 import { db } from '../data/firebaseInit.js'
-import './components.css'
+import '../App.css'
 
 
 
@@ -82,7 +82,7 @@ class TemplateRegister extends React.Component {
 
                 })
                         .catch(() => {
-                                alert("Failed to send");
+                                Swal.fire("Failed to send");
                         })
 
 
@@ -116,7 +116,7 @@ class TemplateRegister extends React.Component {
                                                 className="btn btn-secondary float-left"
                                                 type="button" onClick={this._prev}>
                                                 Atrás </button>
-                                                <button className="btn btn-primary float-right" onClick={this.handleSubmit}>Enviar Registro</button>
+                                        <button className="btn btn-primary float-right" onClick={this.handleSubmit}>Enviar Registro</button>
                                 </>
 
 
@@ -143,37 +143,15 @@ class TemplateRegister extends React.Component {
                 return (
                         <React.Fragment>
 
-
-
                                 <Container >
                                         <Row className="register bgDiv">
-                                                <Col xs={12} sm={12} md={8} lg={6}>
+                                                <Col className="pt-3" xs={12} sm={12} md={8} lg={6}>
                                                         <h2> Regístrate, tu apoyo es importante </h2>
                                                         <form>
-                                                                {/* 
-              render the form steps and pass required props in
-            */}
-                                                                <Step1
-                                                                        currentStep={this.state.currentStep}
-                                                                        handleChange={this.handleChange}
-                                                                        name={this.state.name}
-                                                                        lastname={this.state.lastname}
-                                                                        email={this.state.email}
-                                                                        phone={this.state.phone}
-                                                                />
-                                                                <Step2
-                                                                        currentStep={this.state.currentStep}
-                                                                        handleChange={this.handleChange}
-                                                                        rut={this.state.rut}
-                                                                        nationality={this.state.nationality}
-                                                                        birthdate={this.state.birthdate}
-                                                                        gender={this.state.gender}
-                                                                        health={this.state.health}
-                                                                />
-                                                                <Step3
-                                                                        currentStep={this.state.currentStep}
-                                                                        handleChange={this.handleChange}
-                                                                />
+
+                                                                <Step1 currentStep={this.state.currentStep} handleChange={this.handleChange} />
+                                                                <Step2 currentStep={this.state.currentStep} andleChange={this.handleChange} />
+                                                                <Step3 currentStep={this.state.currentStep} handleChange={this.handleChange} />
 
                                                                 {this.previousButton()}
                                                                 {this.nextButton()}
@@ -246,7 +224,6 @@ function Step2(props) {
         return (
                 <>
                         <p>Súmate a nuestra red de pacientes y recibe boletines informativos en tu correo electrónico </p>
-                        {/* <p>Paso {this.state.currentStep} </p> */}
                         <div className="form-group">
                                 <label htmlFor="rut">R.U.T.</label>
                                 <input

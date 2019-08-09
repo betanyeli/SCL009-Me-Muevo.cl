@@ -12,6 +12,7 @@ import TemplateHome from './views/TemplateHome';
 import './App.css';
 import Navbarmobile from './components/Navbarmobile';
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import NewRegister from './views/newRegister';
 class App extends Component {
  render() {
    return (
@@ -21,7 +22,7 @@ class App extends Component {
            {/* <Row> */}
            <header expand="lg" className="row">
              <div className="col-2">
-               <Link to="/">
+               <Link to= {process.env.PUBLIC_URL + '/'}>
                  <img src={logo} 
                    className="d-inline-block align-top m-2"    style= {{width: '100px'}} alt="Logo de la Fundación">
                  </img></Link>
@@ -36,7 +37,7 @@ class App extends Component {
            <Navbarmobile />
            {/* <Col xs={12} md={9}> */}
            <Switch>
-             <Route exact path='/' component={TemplateHome} />
+             <Route exact path= {process.env.PUBLIC_URL + '/'} component={TemplateHome} />
              <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
              <Route exact path='/ley-ricarte-soto' component={TemplateLaw} />
              <Route exact path='/ges' component={TemplateGes} />

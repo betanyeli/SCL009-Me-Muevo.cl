@@ -1,75 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* universal styles */
 .App {
     height: 100vh;
+    width: 100vw;
 }
+
 :root {
     --color-blue: #00519F;
     --color-grey: #F1F3F4;
     --color-greyO: #D3D4D5;
     --color-white: #ffffff;
     --color-black: #000000;
-  }
-
+}
+  
 .btn {
-    background-color: #00519F;
+    background-color: var(--color-blue);
     width: 140px;
     height: 40px;
-    padding: 0px
+    padding: 0px;
 }
 
-.icon{
+.icon {
     width: 40px; 
     height: 40px;
     margin: 5px
 }
-.pos-f-t{
+
+.pos-f-t {
     height: 100%;
+    width: 100%;   
 }
 
-.rrss{
-    margin:4px;
+.rrss {
+    margin: 4px;
     display: flex;
     justify-content: center;
 }
 
 .content {
-    background-color: #ffffff;
-    padding: 5px;
+    background-color: var(--color-white);
+    padding-top: 0px;
 }
 
-
-    
-.list-sidebar .list-group-item-action {
-    position: relative;
-    display: block;
-    padding: .75rem 1.25rem;
-    margin-bottom: -1px;
-    background-color: #f8f9fa;
-    border: 1px solid rgba(0,0,0,.125);
-    color: black;
-    border-radius: 0px;
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    border-color: var(--color-blue);
 }
 
-.parraghaf {
-    margin-left: 10px;
-}
 
 .infoTemplateHome {
     display: flex;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: var(--color-black);
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: var(--color-black);
+}
 
 .navbar-nav {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .bgNav{
-    background-color: #00519F;
+    background-color: var(--color-blue);
  }
- .navbar-nav a{
-    color: white;
- }
+
+.navbar-nav a{
+    color: var(--color-white);
+}
 
 .imgInfo{
     width: 100%;
@@ -77,36 +84,53 @@
     max-height:499px;
     position: absolute;
 
- }
- .imgAr{
-    width: 100%;
+}
 
- }
- .ricarteSotoIngfografia {
+.imgAr{
+    width: 100%;
+}
+
+.ricarteSotoIngfografia {
     width: 100%;
     max-width: 800px;
     max-height: 900px;
     border-radius: 1em;
 }
+
 .sectionricarteSoto {
     text-align: center;
 }
+
 .text-home{
     position: absolute;
     top: 395px;
-
+    /* margin-left: 3px; */
     text-align: center;
 }
-​
+
 .marginInitial{
     margin-top: 1.5em;
 }
-​
+
 .bgDiv{
-    background-color: var(--color-grey); 
+    background-color: var(--color-greyO); 
     border-radius: 1em; 
 }
-​
+
 .phone{
-    color: var(--color-blue)
+    color: var(--color-blue);
+}
+
+.register{
+    background-color: var(--color-greyO); 
+    border-radius: 1em; 
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.my-cards{
+    margin: 1.5em;
+ 
+}
+.d-inline-block{
+    width: 100%;
 }
