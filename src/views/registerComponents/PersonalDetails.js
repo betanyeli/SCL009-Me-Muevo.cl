@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import Swal from 'sweetalert2'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 
 
 class PersonalDetails extends Component {
@@ -102,7 +102,7 @@ class PersonalDetails extends Component {
                 </Form.Group>
 
                 <Button className=" btn float-left" onClick={this.back}>Atrás</Button>
-                <Button className="float-right" onClick={this.saveAndContinue}><Link to="/">Enviar</Link></Button>
+                <Button className="float-right btn-enviar" onClick={this.saveAndContinue}>Enviar</Button>
             </Form>
         )
     }

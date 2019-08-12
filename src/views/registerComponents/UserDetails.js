@@ -45,8 +45,8 @@ class UserDetails extends Component {
                
                    
 
-                <Button className=" btn float-left" onClick={this.back}>Atrás</Button>
-                <Button className="btn float-right" onClick={this.saveAndContinue}>Guardar </Button>
+  
+                <Button className="float-right" onClick={this.saveAndContinue}>Guardar </Button>
             </Form>
         )
     }
