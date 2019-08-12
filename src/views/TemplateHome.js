@@ -1,29 +1,42 @@
 import React from 'react'
-import '../views/components.css';
+import { Link } from 'react-router-dom';
+import CarouselHome from '../components/CarouselHome'
+import infografiaRicarteSoto from '../image/infografiaRicarteSoto.jpg'
+import infografiaGes from '../image/infografiaGes.jpg';
 import { Row, Col, Container } from 'react-bootstrap';
-import imgHands from '../image/imgHands.jpg';
-// import secondimgInfo from '../image/secondimgInfo.jpg';
+
 const TemplateHome = () => {
     return (
-        <div>
-            <section>
-                <Container>
-                    <Row>
-          
-                        <Col xs={12} md={12}>
+                   <>
+                   <section>
 
-                            <img src={imgHands} className="imgInfo" alt="Infografía de la Enfermedad" />
-                            <h3 className="text-home">La Artritis Reumatoide es una enfermedad autoinmune que
-           afecta las articulaciones provocando hinchazón, dolor y rigidez.
-Sin embargo, este diagnóstico no impide que vivas una vida plena.</h3>
-                        </Col>
-                        {/* <Col  xs = {12} md ={12}>
-                   <img src={secondimgInfo} className="imgInfo" alt="Infografía de la Enfermedad"/>
-             </Col> */}
-                    </Row>
-                </Container>
-            </section>
-        </div>
+                      <CarouselHome/> 
+                </section>  
+
+                <section>
+                 <Container>
+                     <Row>
+                         <Col xs={12} md={4}>
+<div>
+    <img src={infografiaRicarteSoto} alt="" className= "img-bottom_home"/><div><Link to="/ley-ricarte-soto">Ver mas</Link></div>
+    </div>
+    </Col>
+    <Col xs={12} md={4}>
+<div>
+    <img src={infografiaGes} alt="" className= "img-bottom_home"/>
+    <div><Link to="/ges">Ver mas</Link></div>
+    </div>
+    </Col>
+    <Col xs={12} md={4}>
+<div>
+    <img src={infografiaRicarteSoto} alt="" className= "img-bottom_home"/><div><Link to="/ges">Ver mas</Link></div>
+    </div>
+    </Col>
+
+</Row>
+</Container>
+</section>
+                </>
     )
 }
 export default TemplateHome;

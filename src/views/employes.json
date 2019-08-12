@@ -1,0 +1,40 @@
+
+{
+    "Employes": [
+        {
+            "name": "Pabla Flores Jiménez",
+            "title": "Secretaria",
+            "description": "“Yo no tengo artritis reumatoide, pero la conozco y quiero que no exista mas discapacidad por esta enfermedad. Creo en la responsabilidad social, no sólo de los individuos, sino también de las empresas y sociedades. Por esto creo imprescindible hacernos cargo, ocuparnos de aquello que se debe remediar construyendo una realidad diferente junto con los otros”.",
+            "cv": "Profesora de Danza de la Universidad ARCIS y Magister en Psicología Social de la Universidad Autónoma de Barcelona, con postítulos en RSE y Método Feldenkrais impartido en la Escuela de Terapia Ocupacional de la Universidad de Chile. Actualmente es la Gerente de Sustentabilidad y Responsabilidad Social Empresarial en Deloitte.",
+            "img": "http://www.memuevo.cl/wp-content/uploads/2014/10/Pabla_Flores.png"
+        },
+        {
+            "name": "Francisco Chaparro Letelier",
+            "title": "Vicepresidente",
+            "description": "“Tengo la convicción que todos jugamos un rol en la vida y que nuestra responsabilidad es hacernos cargo de que este rol le haga sentido a otros, fuera de nosotros mismos.  Soy parte de Me Muevo porque, aunque no tenga artritis reumatoide, entiendo lo que se vive y estoy seguro que podemos ser un actor relevante en ayudar a que personas con esta condición puedan tener una mejor vida “.",
+            "cv": "Comunicador Social y Publicista de la Universidad Mayor, Ingeniero Comercial de la Universidad del Pacífico y Diplomado en Dirección Estratégica de la Marca de la Universidad Adolfo Ibáñez. Actualmente Gerente Comercial y Nuevos Negocios de Grupo MI VOZ. Anteriormente se ha desempeñado como Gerente de Marketing y Gerente de Comunicaciones para empresas como Virgin Mobile, Claro y Telmex.",
+            "img": "http://www.memuevo.cl/wp-content/uploads/2014/10/FChaparro.png"
+        },
+        {
+            "name": "Felipe Contreras Haye",
+            "title": "Presidente",
+            "description": "” No podemos vivir en una sociedad donde la discriminación sea aceptada y vista como algo normal. En ese sentido, debemos trabajar por las personas que tengan Artritis Reumatoide para que ellos y muchos otros tengan una vida más justa, más digna y con mayor atención de nuestro sistema de Salud. Chile lo hacemos todos, no podemos dejar de mirar aquello que nos aqueja. No tengo Artritis pero soy chileno y me importan mis compatriotas y que todos tengamos un trato justo, digno e igualitario.”",
+            "cv": "Ingeniero comercial. Empresario. Gulliver S.A. Empresa B. Ha liderado diversas iniciativas públicas y privadas ligadas a la Innovación y el emprendimiento. Ha sido elegido uno de los 50 líderes jóvenes de Chile. Ha realizado asesorías para América Latina en Ecosistemas de Emprendimiento e Innovación. Es también profesor universitario y egresado del Máster en Gestión de Personas y Organizaciones.",
+            "img": "http://www.memuevo.cl/wp-content/uploads/2014/09/Felipe-Contreras-21.png"
+        },
+        {
+            "name": "Claudio Peñailillo Cardemil",
+            "title": "Tesorero",
+            "description": "“Yo no tengo artritis reumatoide, pero la conozco y quiero cambiar las cosas. El mundo ha cambiado, hoy nos relacionamos en forma constante, nos debemos al otro y los desafíos para ser consecuentes son innumerables. Tomar esos desafíos, hacerlos propios y batallar hasta sortearlos son la premisa que me ha movido a buscar soluciones sustentables en mis proyectos”.",
+            "cv": "Ingeniero Civil Industrial y MBA en Gestión Empresarial de la Universidad Federico Santa María. Actualmente es Gerente General de Agencia diDigital SPA y Director Ejecutivo de Fuentes y Asociados Ltda. Fue Subgerente de Ventas en Pisco Capel y Product Manager en ENTEL SA. Ha sido profesor de la cátedra marketing y juego de negocios en la Universidad Técnica Federico Santa María.",
+            "img": "http://www.memuevo.cl/wp-content/uploads/2014/09/pe%C3%B1ailillo_whatsapp.png"
+        },
+        {
+            "name": "Lorena Rodríguez Ruiz",
+            "title": "Directora – Representante Pacientes",
+            "description": "“Tengo artritis reumatoidea hace 12 años y quiero cambiar las cosas. Como paciente creo importante que nuestra voz se escuche. Nadie mejor que nosotros sabe los que es vivir con artritis.  Es nuestro deber el ser responsables, educarnos y educar a nuestro entorno. Juntos podemos lograr muchas cosas.”",
+            "cv": "Profesora de Educación Física de la Universidad Metropolitana de Ciencias de la Educación. Actualmente se desempeña como profesora de Educación Física, especialista en natación del Colegio Nido de Águilas.",
+            "img": "http://www.memuevo.cl/wp-content/uploads/2014/10/LRodriguez.png"
+        }
+    ]
+}
