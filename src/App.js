@@ -6,7 +6,7 @@ import TemplateInfo from './views/TemplateInfo';
 import TemplateLaw from './views/TemplateLaw';
 import TemplateGes from './views/TemplateGes'
 import TemplateNews from './views/TemplateNews';
-import TemplateRegister from './views/TemplateRegister';
+import ContainerForm from './views/ContainerForm';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
 import './App.css';
@@ -42,7 +42,7 @@ class App extends Component {
              <Route exact path='/ley-ricarte-soto' component={TemplateLaw} />
              <Route exact path='/ges' component={TemplateGes} />
              <Route exact path='/noticias' component={TemplateNews} />
-             <Route exact path='/registro' component={TemplateRegister} />
+             <Route exact path='/registro' component={ContainerForm} />
              <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
            </Switch>
            {/* </Col> */}
