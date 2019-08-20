@@ -28,13 +28,13 @@ const Footermain = () => {
           </Col>
           <Col xs={12} md={6}>
           <p className="rrss">
-              Contactanos: <a href="tel: +56987433259" title="Teléfono">+56987433259</a>
+              Contáctanos: <a href="tel: +56987433259" title="Teléfono">+56987433259</a>
             </p>
             <a className="rrss" href="mailto:comunicaciones@memuevo.cl" title="Enviar correo">comunicaciones@memuevo.cl</a>
 
            
             <div className="rrss">
-              <span> Siguenos en:</span>
+              <span> Síguenos en:</span>
               <a target='_blank' href="https://www.facebook.com/memuevo.cl"><img className="icon" src="https://www.pngrepo.com/png/13643/170/facebook.png" alt="logo Facebook" /></a>
               <a target='_blank' href="https://www.twitter.com/memuevoCl"><img className="icon" src="http://www.pngall.com/wp-content/uploads/2016/07/Twitter-Download-PNG.png" alt="logo Twitter" /></a>
               <a target='_blank' href="https://www.youtube.com/channel/UCyl9QdUUFMCDh0HARVzvvwg"><img className="icon" src="https://mondorent.com/wp-content/uploads/2016/03/youtube-logo-icon-2014-300x295.png" alt="logo youtube" /></a>
